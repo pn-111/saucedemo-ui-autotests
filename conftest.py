@@ -1,7 +1,7 @@
 import pytest
-import saucedemo.ui_configuration as ui_configuration
-from saucedemo.pages.login_page import LoginPage
-from saucedemo.pages.inventory_page import InventoryPage
+import ui_configuration as ui_configuration
+from pages.login_page import LoginPage
+from pages.inventory_page import InventoryPage
 import re
 from playwright.sync_api import expect, Playwright
 

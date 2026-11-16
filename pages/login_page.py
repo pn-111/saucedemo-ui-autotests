@@ -1,4 +1,4 @@
-import saucedemo.ui_configuration as ui_configuration
+import ui_configuration
 
 class LoginPage:
     def __init__(self, page):

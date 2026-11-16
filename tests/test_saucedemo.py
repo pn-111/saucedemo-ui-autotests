@@ -1,7 +1,7 @@
 import re
 from playwright.sync_api import expect
-from saucedemo.pages.login_page import LoginPage
-import saucedemo.ui_configuration as ui_configuration
+from pages.login_page import LoginPage
+import ui_configuration as ui_configuration
 
 product_name = "Sauce Labs Bolt T-Shirt"
 
